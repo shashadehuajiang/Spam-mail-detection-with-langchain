@@ -9,11 +9,11 @@ This project aims to implement a malicious email detection system based on a lar
 
 
 ```
-project\_root/
+project_root/
 
-├── img\_cls.py              # Contains functions for malicious email detection
+├── img_cls.py              # Contains functions for malicious email detection
 
-├── read\_mail\_with\_img.py   # Contains functions for processing .eml files
+├── read_mail_with_img.py   # Contains functions for processing .eml files
 
 ├── main.py                 # Main program entry
 
@@ -43,9 +43,9 @@ In the `config.py` file, you need to configure the `ARK_API_KEY`, which is used 
 
 
 ```
-API\_URL = "your api url here"
+API_URL = "your api url here"
 
-ARK\_API\_KEY = "your\_api\_key\_here"
+ARK_API_KEY = "your_api_key_here"
 ```
 
 ## Usage Steps
@@ -99,11 +99,11 @@ If the processing of the `.eml` file fails, the program will output the correspo
 
 
 ```
-project\_root/
+project_root/
 
-├── img\_cls.py              # 包含恶意邮件检测函数
+├── img_cls.py              # 包含恶意邮件检测函数
 
-├── read\_mail\_with\_img.py   # 包含处理 .eml 文件的函数
+├── read_mail_with_img.py   # 包含处理 .eml 文件的函数
 
 ├── main.py                 # 主程序入口
 
@@ -133,9 +133,9 @@ pip install langchain langchain-openai pydantic
 
 
 ```
-API\_URL = "your api url here"
+API_URL = "your api url here"
 
-ARK\_API\_KEY = "your\_api\_key\_here"
+ARK_API_KEY = "your_api_key_here"
 ```
 
 ### 使用步骤
