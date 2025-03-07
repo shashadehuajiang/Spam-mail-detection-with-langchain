@@ -38,15 +38,19 @@ pip install langchain langchain-openai pydantic
 
 ## Configuration Instructions
 
-In the `config.py` file, you need to configure the `ARK_API_KEY`, which is used to access the large language model API. An example is as follows:
-
-
+In the `config.py` file, you need to configure the `ARK_API_KEY`, which is used to access the large language model API.
+You can obtain your API key on the OpenAI website or other websites. Maybe try [volcengine](https://www.volcengine.com/).
+An example is as follows:
 
 ```
 API_URL = "your api url here"
 
 ARK_API_KEY = "your_api_key_here"
+
+API_MODEL_NAME = "your_api_model_name_here"
 ```
+
+
 
 ## Usage Steps
 
@@ -136,6 +140,8 @@ pip install langchain langchain-openai pydantic
 API_URL = "your api url here"
 
 ARK_API_KEY = "your_api_key_here"
+
+API_MODEL_NAME = "your_api_model_name_here"
 ```
 
 ### 使用步骤

@@ -1,6 +1,5 @@
 from langchain_openai import ChatOpenAI
-from config import ARK_API_KEY
-from config import API_URL
+from config import ARK_API_KEY, API_URL, API_MODEL_NAME
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers import StructuredOutputParser, ResponseSchema
 
@@ -11,7 +10,7 @@ def is_malicious_email(email_content):
         temperature=0,
         openai_api_base=API_URL,
         openai_api_key=ARK_API_KEY,  # app_key
-        model_name="deepseek-v3-241226",  # 模型名称
+        model_name= API_MODEL_NAME,  # 模型名称
     )
 
     # 定义输出解析器

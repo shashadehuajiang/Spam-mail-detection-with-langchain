@@ -28,9 +28,9 @@ def print_detection_result(is_malicious):
     if is_malicious is None:
         return
     if is_malicious:
-        print("该邮件被判定为恶意邮件。")
+        print("This email is determined to be a malicious email.")
     else:
-        print("该邮件不是恶意邮件。")
+        print("This email is not a malicious email.")
 
 
 if __name__ == "__main__":
